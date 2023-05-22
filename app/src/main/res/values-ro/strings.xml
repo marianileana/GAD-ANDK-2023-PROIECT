@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Travel Memories</string>
+    <string name="navigation_drawer_open">Deschideți meniul de navigare</string>
+    <string name="navigation_drawer_close">Închideți meniul de navigare</string>
+    <string name="nav_header_title">Marian ILEANA</string>
+    <string name="nav_header_subtitle">marianileana@email.com</string>
+    <string name="nav_header_desc">Antet de navigare</string>
+    <string name="action_settings">Setări</string>
+
+    <string name="menu_home">Acasă</string>
+    <string name="menu_about_us">Despre noi</string>
+    <string name="menu_contactus">Contactați-ne</string>
+    <string name="menu_share">Partajați</string>
+    <string name="menu_settings">Setări</string>
+    <string name="menu_logout">Deconectare</string>
+
+    <string name="language">Limbă</string>
+    <string name="theme">Temă</string>
+    <string name="settings">Setări</string>
+    <string name="language_english">Engleză</string>
+    <string name="language_romanian">Română</string>
+    <string name="theme_light">Luminoasă</string>
+    <string name="theme_dark">Întunecată</string>
+
+    <string name="app_description">Travel Memories este o aplicație captivantă care vă permite să vă înregistrați și să vă păstrați cele mai frumoase amintiri din călătorii. Fotografiați, scrieți și salvați momentele speciale, destinațiile preferate și experiențele unice într-un singur loc. Revizuiți și partajați amintirile cu prietenii și familia. Bucurați-vă de fiecare detaliu și păstrați vie aventura călătoriilor voastre cu Travel Memories.</string>
+
+</resources>

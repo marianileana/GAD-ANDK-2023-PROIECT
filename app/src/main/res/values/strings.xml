@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Travel Memories</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Marian ILEANA</string>
+    <string name="nav_header_subtitle">marianileana@email.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_contactus">Contact Us</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="app_description">Travel Memories is an engaging application that allows you to capture and preserve your most beautiful travel memories. Capture photos, write down and save special moments, favorite destinations, and unique experiences in one place. Review and share memories with friends and family. Enjoy every detail and keep the adventure of your travels alive with Travel Memories.</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="language_options">
+        <item>English</item>
+        <item>Romana</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>en</item>
+        <item>ro</item>
+    </string-array>
+</resources>
