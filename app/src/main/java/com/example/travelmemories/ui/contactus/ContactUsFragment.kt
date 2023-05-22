@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.travelmemories.databinding.FragmentContactUsBinding
-import com.example.travelmemories.ui.contactus.ContactUsViewModel
 
 class ContactUsFragment : Fragment() {
 
