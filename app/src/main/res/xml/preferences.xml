@@ -3,14 +3,14 @@
 
     <SwitchPreferenceCompat
         android:key="theme"
-        android:title="Application Theme"
-        android:summaryOn="Dark theme"
-        android:summaryOff="Light theme"
+        android:title="@string/theme_title"
+        android:summaryOn="@string/dark_theme_summary"
+        android:summaryOff="@string/light_theme_summary"
         android:defaultValue="false" />
 
     <ListPreference
         android:key="language"
-        android:title="Application Language"
+        android:title="@string/language_title"
         android:entries="@array/language_options"
         android:entryValues="@array/language_values"
         android:defaultValue="en"/>

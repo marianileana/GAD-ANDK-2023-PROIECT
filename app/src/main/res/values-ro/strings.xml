@@ -15,14 +15,16 @@
     <string name="menu_settings">Setări</string>
     <string name="menu_logout">Deconectare</string>
 
-    <string name="language">Limbă</string>
-    <string name="theme">Temă</string>
-    <string name="settings">Setări</string>
-    <string name="language_english">Engleză</string>
-    <string name="language_romanian">Română</string>
-    <string name="theme_light">Luminoasă</string>
-    <string name="theme_dark">Întunecată</string>
+    <string name="name_label">Nume:</string>
+    <string name="email_label">E-mail:</string>
+    <string name="message_label">Mesaj:</string>
+    <string name="submit_button">Trimite</string>
 
     <string name="app_description">Travel Memories este o aplicație captivantă care vă permite să vă înregistrați și să vă păstrați cele mai frumoase amintiri din călătorii. Fotografiați, scrieți și salvați momentele speciale, destinațiile preferate și experiențele unice într-un singur loc. Revizuiți și partajați amintirile cu prietenii și familia. Bucurați-vă de fiecare detaliu și păstrați vie aventura călătoriilor voastre cu Travel Memories.</string>
+
+    <string name="theme_title">Tema aplicației</string>
+    <string name="dark_theme_summary">Temă întunecată</string>
+    <string name="light_theme_summary">Temă luminoasă</string>
+    <string name="language_title">Limba aplicației</string>
 
 </resources>

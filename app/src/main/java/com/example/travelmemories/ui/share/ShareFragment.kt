@@ -13,8 +13,6 @@ class ShareFragment : Fragment() {
 
     private var _binding: FragmentShareBinding? = null
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
