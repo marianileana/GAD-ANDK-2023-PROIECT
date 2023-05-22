@@ -142,7 +142,7 @@ class HomeFragment : Fragment() {
                 val alertDialog = alertDialogBuilder.create()
                 alertDialog.show()
             }
-            
+
         })
     }
 }

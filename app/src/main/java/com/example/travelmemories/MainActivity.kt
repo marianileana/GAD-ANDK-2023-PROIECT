@@ -77,6 +77,7 @@ class MainActivity : AppCompatActivity() {
         } catch (e: ActivityNotFoundException) {
             Toast.makeText(this, "No email client found", Toast.LENGTH_SHORT).show()
         }
+
     }
 
 

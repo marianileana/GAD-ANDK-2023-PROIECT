@@ -45,6 +45,7 @@
         android:id="@+id/buttonSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/submit_button" />
+        android:text="@string/submit_button"
+        android:onClick="sendContactMessage"/>
 
 </LinearLayout>
