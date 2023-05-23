@@ -5,6 +5,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
+import android.view.View
 import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
@@ -40,6 +41,11 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
+
+        binding.appBarMain.fab.setOnClickListener {
+            sendFeedbackEmail()
+        }
+
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_main)
@@ -54,7 +60,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main, menu)
         return true
     }
@@ -73,9 +78,9 @@ class MainActivity : AppCompatActivity() {
         email.putExtra(Intent.EXTRA_TEXT, body)
 
         try {
-            startActivity(Intent.createChooser(email, "Send Feedback"))
+            startActivity(Intent.createChooser(email, getString(R.string.send_feedback)))
         } catch (e: ActivityNotFoundException) {
-            Toast.makeText(this, "No email client found", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.no_email_client), Toast.LENGTH_SHORT).show()
         }
 
     }

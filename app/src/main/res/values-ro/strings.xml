@@ -27,4 +27,7 @@
     <string name="light_theme_summary">Temă luminoasă</string>
     <string name="language_title">Limba aplicației</string>
 
+    <string name="send_feedback">Trimite feedback</string>
+    <string name="no_email_client">Niciun client de email găsit</string>
+
 </resources>

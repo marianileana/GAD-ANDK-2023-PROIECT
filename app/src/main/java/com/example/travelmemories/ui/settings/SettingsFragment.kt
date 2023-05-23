@@ -20,10 +20,8 @@ class SettingsFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedP
         themePreference?.setOnPreferenceChangeListener { _, newValue ->
             val selectedTheme = newValue as Boolean
             if (selectedTheme) {
-                // Set the Dark theme
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             } else {
-                // Set the Light theme
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             }
             true

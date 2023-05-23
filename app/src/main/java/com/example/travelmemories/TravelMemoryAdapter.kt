@@ -53,7 +53,6 @@ class TravelMemoryAdapter(private val travelMemories: List<TravelMemory>) :
                 temperature.text = "$temperatureCelsius °C"
             }
 
-            // Set click listener for opening location in Google Maps
             itemView.setOnClickListener {
                 val location = Uri.encode(travelMemory.placeLocation)
                 val intentUri = Uri.parse("geo:0,0?q=$location")
