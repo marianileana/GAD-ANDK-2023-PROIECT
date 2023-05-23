@@ -34,12 +34,13 @@ class MainActivity : AppCompatActivity() {
         binding.appBarMain.toolbar.setOnMenuItemClickListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.action_send_feedback -> {
-                    sendFeedbackEmail()
-                    Snackbar.make(binding.root, "Send Feedback clicked", Snackbar.LENGTH_SHORT).show()
+                    val navController = findNavController(R.id.nav_host_fragment_content_main)
+                    navController.navigate(R.id.nav_settings)
                     true
                 }
                 else -> false
             }
+
         }
 
         binding.appBarMain.fab.setOnClickListener {
@@ -84,6 +85,5 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
 
 }
